@@ -11,9 +11,9 @@ This dataset contains 126 rows, representing monthly automobile sales data over 
 
 The dataset consists of the following columns:
 
-* **waktu** > Represents the time period in `YYYY-MM-DD` (Year–Month–Day) format.
-* **DAIHATSU** > Monthly total sales of Daihatsu vehicles.
-* **HONDA** > Monthly total sales of Honda vehicles.
-* **MITSUBISHI** > Monthly total sales of Mitsubishi vehicles.
-* **SUZUKI** > Monthly total sales of Suzuki vehicles.
-* **TOYOTA** > Monthly total sales of Toyota vehicles.
+* waktu : Represents the time period in `YYYY-MM-DD` (Year–Month–Day) format.
+* DAIHATSU : Monthly total sales of Daihatsu vehicles.
+* HONDA : Monthly total sales of Honda vehicles.
+* MITSUBISHI : Monthly total sales of Mitsubishi vehicles.
+* SUZUKI : Monthly total sales of Suzuki vehicles.
+* TOYOTA : Monthly total sales of Toyota vehicles.
