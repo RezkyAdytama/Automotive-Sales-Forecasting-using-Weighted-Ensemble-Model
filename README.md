@@ -10,6 +10,16 @@
 
 The digital era has brought us into the Industrial Revolution 4.0, where data has become one of the most valuable assets. The ability to process, analyze, and extract insights from data (data science) has become a crucial competency across various sectors, including the automotive industry. The automotive industry in Indonesia is one of the key pillars of the national economy and continues to grow dynamically.
 
+### Table of Contents
+
+- [Dataset](#dataset)
+- [Libraries](#libraries)
+- [Moving Average](#moving-average)
+- [Sales Trend Analysis](#sales-trend-analysis)
+- [Models](#models)
+- [Results](#results)
+
+
 ### Dataset
 The dataset used in this project is a CSV file named `dataCarSale2015-2025.csv`, which was obtained from the official website of the [Indonesian Automotive Industry Association (GAIKINDO)](https://www.gaikindo.or.id/indonesian-automobile-industry-data/). 
 
@@ -40,7 +50,6 @@ import matplotlib.pyplot as plt
 </pre>
 
 <img src="./img/line.png" alt="Sales Trend" width="100%">
-
 ### Moving Average
 To handle zero values in the sales data, a moving average approach was applied. Zero values were treated as missing data and replaced using a rolling mean with a window size of three periods. This method helps smooth short-term fluctuations and provides a more representative estimate based on neighboring data points, ensuring data continuity before further analysis and modeling.
 
