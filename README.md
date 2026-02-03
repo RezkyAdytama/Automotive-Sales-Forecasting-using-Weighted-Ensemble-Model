@@ -39,3 +39,24 @@ To handle zero values in the sales data, a moving average approach was applied. 
 <br>
 *The following figure shows the sales trend in the dataset over time for each car brand, providing an overview of overall patterns and fluctuations.*
 <img src="./img/trend.png" alt="Sales Trend" width="100%">
+
+### Models
+This project applies an ensemble learning approach with bias correction to improve sales forecasting performance, focusing on the TOYOTA sales column. Instead of relying on a single model, multiple forecasting models are combined to capture different patterns in the data and reduce prediction bias.
+
+The ensemble consists of three models:
+* ARIMA, which captures linear patterns and temporal dependencies in time series data
+* Prophet, which models trend and seasonality effectively
+* LightGBM, which learns complex and non-linear relationships from the data
+
+### Results
+The table below presents the final sales prediction results for each automotive brand based on the ensemble learning model:
+
+| Brand | Final Prediction |
+| :--- | :---: |
+| DAIHATSU | 7,412 |
+| HONDA | 4,429 |
+| MITSUBISHI | 6,739 |
+| SUZUKI | 3,492 |
+| TOYOTA | 13,313 |
+
+The forecasting performance was evaluated using Symmetric Mean Absolute Percentage Error (SMAPE), resulting in a value of 28.22%.
