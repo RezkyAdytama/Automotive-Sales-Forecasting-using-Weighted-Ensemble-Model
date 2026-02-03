@@ -50,6 +50,7 @@ import matplotlib.pyplot as plt
 </pre>
 
 <img src="./img/line.png" alt="Sales Trend" width="100%">
+
 ### Moving Average
 To handle zero values in the sales data, a moving average approach was applied. Zero values were treated as missing data and replaced using a rolling mean with a window size of three periods. This method helps smooth short-term fluctuations and provides a more representative estimate based on neighboring data points, ensuring data continuity before further analysis and modeling.
 
