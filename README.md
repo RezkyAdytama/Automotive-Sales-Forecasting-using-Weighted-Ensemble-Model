@@ -21,12 +21,14 @@ The dataset consists of the following columns:
 ### Libraries
 This project uses several Python libraries to support data processing, modeling, and evaluation:
 
-`import pandas as pd`
-`import numpy as np`
-`from statsmodels.tsa.arima.model import ARIMA`
-`from prophet import Prophet`
-`import lightgbm as lgb`
-`from sklearn.metrics import mean_absolute_error`
-`from sklearn.model_selection import train_test_split`
-`import warnings`
-`import matplotlib.pyplot as plt`
+<pre>
+import pandas as pd
+import numpy as np
+from statsmodels.tsa.arima.model import ARIMA
+from prophet import Prophet
+import lightgbm as lgb
+from sklearn.metrics import mean_absolute_error
+from sklearn.model_selection import train_test_split
+import warnings
+import matplotlib.pyplot as plt
+</pre>
