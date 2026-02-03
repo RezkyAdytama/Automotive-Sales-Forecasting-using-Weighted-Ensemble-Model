@@ -1,5 +1,14 @@
 ## Automotive Sales Forecasting using Weighted Ensemble Model
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.x-yellow" />
+  <img src="https://img.shields.io/badge/Machine-Learning-blue" />
+  <img src="https://img.shields.io/badge/Ensemble-Learning-green" />
+  <img src="https://img.shields.io/badge/Time-Series%20Forecasting-orange" />
+  <img src="https://img.shields.io/badge/Metric-SMAPE-red" />
+</p>
+
+
 The digital era has brought us into the Industrial Revolution 4.0, where data has become one of the most valuable assets. The ability to process, analyze, and extract insights from data (data science) has become a crucial competency across various sectors, including the automotive industry. The automotive industry in Indonesia is one of the key pillars of the national economy and continues to grow dynamically.
 
 ### Dataset
