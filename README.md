@@ -1,7 +1,5 @@
 ## Automotive Sales Forecasting using Weighted Ensemble Model
 
-<hr style="height:0.5px; border:none; color:#333; background-color:#333;" />
-
 The digital era has brought us into the Industrial Revolution 4.0, where data has become one of the most valuable assets. The ability to process, analyze, and extract insights from data (data science) has become a crucial competency across various sectors, including the automotive industry. The automotive industry in Indonesia is one of the key pillars of the national economy and continues to grow dynamically.
 
 ### Dataset
@@ -36,5 +34,8 @@ import matplotlib.pyplot as plt
 ### Moving Average
 To handle zero values in the sales data, a moving average approach was applied. Zero values were treated as missing data and replaced using a rolling mean with a window size of three periods. This method helps smooth short-term fluctuations and provides a more representative estimate based on neighboring data points, ensuring data continuity before further analysis and modeling.
 
+<hr style="height:0.5px; border:none; color:#333; background-color:#333;" />
+
 <br>
 *The following figure shows the sales trend in the dataset over time for each car brand, providing an overview of overall patterns and fluctuations.*
+<img src="./img/trend.png" alt="Sales Trend" width="100%">
