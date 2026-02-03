@@ -32,3 +32,9 @@ from sklearn.model_selection import train_test_split
 import warnings
 import matplotlib.pyplot as plt
 </pre>
+
+### Moving Average
+To handle zero values in the sales data, a moving average approach was applied. Zero values were treated as missing data and replaced using a rolling mean with a window size of three periods. This method helps smooth short-term fluctuations and provides a more representative estimate based on neighboring data points, ensuring data continuity before further analysis and modeling.
+
+<br>
+*The following figure shows the sales trend in the dataset over time for each car brand, providing an overview of overall patterns and fluctuations.*
